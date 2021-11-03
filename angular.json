@@ -28,7 +28,12 @@
             "inlineStyleLanguage": "scss",
             "assets": [
               "src/favicon.ico",
-              "src/assets"
+              "src/assets",
+              {
+                "input": "node_modules/mediainfo.js/dist",
+                "glob": "MediaInfoModule.wasm",
+                "output": ""
+              }
             ],
             "styles": [
               "src/styles.scss"
